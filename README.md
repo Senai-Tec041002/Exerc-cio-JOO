@@ -23,6 +23,16 @@ public class AgenciaAerea {
 ```
 continuem
 coloque o trecho do código que vc fez e seu nome para identificar
+------------- MArcus ------------------------
+public class Passageiro {
+    private String nomePassageiro;
+    private String rg;
+    private String cpf;
+    private String numeroPassaporte;
+    private String telefoneContato;
+    private String telefoneEmergencia;
+    private String destino;
+    
 
 ------------------------------- TIAGO ALVES ----------------
 // COLETA DE DADOS DO PASSAGEIRO 
