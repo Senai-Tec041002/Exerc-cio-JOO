@@ -24,5 +24,44 @@ public class AgenciaAerea {
 continuem
 coloque o trecho do código que vc fez e seu nome para identificar
 
-fttrtrttttrtt
-Kauan esteve aqui...
+------------------------------- TIAGO ALVES ----------------
+// COLETA DE DADOS DO PASSAGEIRO 
+}
+       Sytem.out.println ("Login bem-sucedido!")
+       usuario passageiro = new Usuario(); 
+       
+       System.out.println("Digite o nome do do passageiro:");
+       passageiro.setNome(scanner.nextLine());
+
+       System.out.println("Digite RG do passageiro:);
+       passageiro.setRg(scanner.nextLine());
+
+       System.out.println("Digite o CPF do pasageiro:");
+       passageiro.setCpf(scanner.nextLine());
+
+       System.out.println("Digite o numero do passaporte do passageiro:");
+       passageiro.setPassaporte(scanner.nextLine());
+
+       System.out.println("Digite o telefone de contato (DDD + Numero):");
+       passageiro.setTelefone(scanner.nextLine());
+
+       System.out.println ("Digite o telefone de contato de emergencia (DDD + Numero):);
+       passageiro.setTelefoneEmergencia(scanner.nextLine());
+
+      Sytem.out.println("Escolha o destino (EUA, PORTUGAL, AUTRALIA, ITALIA, RUSSIA, CHINA):);
+      passageiro.setDestino(scanner.nextLine());
+
+      System.out.println("Digite a data de ida (formato AAAA-MM-DD):");
+      passageiro.setDataIda(scanner.nextLine());
+
+      System.out.println("Digite a data de volta (formato AAAA-MM-DD):");
+      passageiro.setDataVolta(scanner.nextLine());
+        
+      // Mostrar dados coletados 
+      System.out.println(" Dados do Passageiro: ");
+      System.out.println(passageiro);
+      }
+------------------------------------------------------------------------------------
+Continuem
+
+
