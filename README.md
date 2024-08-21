@@ -90,12 +90,12 @@ import java.util.Scanner;
 public class AgenciaAerea {
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in); // Declaração do scanner
 
         // Realizar login
         System.out.println("Login da Agência Aérea");
         System.out.print("Usuário: ");
-        String usuario = scanner.nextLine();
+        String usuario = scanner.nextLine(); // Declaração de variável e leitura da entrada
         System.out.print("Senha: ");
         String senha = scanner.nextLine();
 
