@@ -38,6 +38,7 @@ public class Passageiro {
 
 
 ------------------------------- TIAGO ALVES ----------------
+'''java
 // COLETA DE DADOS DO PASSAGEIRO 
 }
        Sytem.out.println ("Login bem-sucedido!")
@@ -74,6 +75,8 @@ public class Passageiro {
       System.out.println(" Dados do Passageiro: ");
       System.out.println(passageiro);
       }
+
+      '''
 ------------------------------------------------------------------------------------
 Continuem
 
@@ -159,7 +162,6 @@ public class AgenciaAerea {
         return usuario.equals("passanger9") && senha.equals("pass9");
     }
 }
-```
 
 ----------------------------------------------------------------------------
 junio
@@ -167,6 +169,9 @@ import java.util.Scanner;
 
 public class AgenciaAerea {
 
+<<<<<<< HEAD
+
+=======
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -214,3 +219,5 @@ public class AgenciaAerea {
             
         scanner.close();
 
+
+>>>>>>> 33e7e6a0a1f92fe1f98580b54913a72f06a32b31
