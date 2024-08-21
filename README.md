@@ -111,7 +111,9 @@ public class AgenciaAerea {
             System.out.print("Documento de Identificação (RG): ");
             String rg = scanner.nextLine();
 
+            //Saída de dados 'Print'; ~ Mikael
             System.out.print("CPF: ");
+            //Solicitar a entrada de dados do cpf através do Scanner que insere o valor do tipo String na variável 'cpf'; ~ Mikael 
             String cpf = scanner.nextLine();
 
             System.out.print("Número do Passaporte: ");
