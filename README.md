@@ -87,6 +87,7 @@ Atividade colaborativa cada um deve comentar pelo menos 2 (duas) linhas do códi
 ```java
 import java.util.Scanner;
 
+// Classe principal - Alice
 public class AgenciaAerea {
 
     public static void main(String[] args) {
@@ -128,6 +129,8 @@ public class AgenciaAerea {
             // Escolha do destino
             String[] destinos = {"EUA", "Portugal", "Austrália", "Itália", "Rússia", "China"};
             System.out.println("Destinos disponíveis:");
+
+            // Laço para exibir destinos disponíveis - Alice
             for (int i = 0; i < destinos.length; i++) {
                 System.out.println((i + 1) + ". " + destinos[i]);
             }
