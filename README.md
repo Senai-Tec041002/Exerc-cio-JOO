@@ -27,12 +27,12 @@ coloque o trecho do código que vc fez e seu nome para identificar
 
 ```java
 public class Passageiro {
-    private String nomePassageiro;
+    private String passageiro;
     private String rg;
     private String cpf;
-    private String numeroPassaporte;
-    private String telefoneContato;
-    private String telefoneEmergencia;
+    private String passaporte;
+    private String contato;
+    private String emergencia;
     private String destino;
 ```
 
