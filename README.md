@@ -161,4 +161,56 @@ public class AgenciaAerea {
 }
 ```
 
+----------------------------------------------------------------------------
+junio
+import java.util.Scanner;
+
+public class AgenciaAerea {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Realizar login
+        System.out.println("Login da Agência Aérea");
+        System.out.print("Usuário: ");
+        String usuario = scanner.nextLine();
+        System.out.print("Senha: ");
+        String senha = scanner.nextLine();
+        
+        try{
+        
+            // Verificar login e senha
+            if (autenticarUsuario(usuario, senha)) {
+                System.out.println("Login bem-sucedido!");
+                System.out.print("Informe o seu Nome: ")
+                int nome = scanner.nextLine();
+                System.out.print(" Informe o seu RG: ")
+                Int rg = scanner.nextInt();
+                System.out.print("Informe o seu CPF: ")
+                int cpf = scanner.nextInt();
+                System.out.print("Informe o seu Passaporte: ")
+                String passaporte = scanner.nextLine();
+                System.out.print(" Informe seu telefone com DDD: ")
+                int = tel1 scanner.nextInt();
+                System.out.print(" Informe seu telefone de emergencia com DDD")
+                int = tel2 scanner.nextInt();
+                System.out.print("Informe o destino:")
+                System.out.print("EUA, PORTUGAL, AUSTRALIA, ITALIA, RUSSIA, CHINA")
+                String destino = scanner.nextLine();
+                System.out.print("Informe a data de ida: ")
+                int ida = scanner.nextInt();
+                System.out.print("Informe a data de volta: ")
+                int volta = scanner.nextInt();
+                
+            else (autenticarUsuario(usuario, senha)){
+                System.out.print("Usuario nao localizado, tente novamente:")
+            } 
+            
+        finally
+        
+            {
+                System.out.print(" Comandos desconhecidos, Programa encerrado")
+            }
+            
+        scanner.close();
 
