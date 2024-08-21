@@ -104,8 +104,9 @@ public class AgenciaAerea {
             System.out.println("Login bem-sucedido!");
 
             // Solicitar informações do passageiro
-            System.out.print("Nome do passageiro: ");
-            String nome = scanner.nextLine();
+            System.out.print("Nome do passageiro: ");// Tiago Alves - Nessa linha de codigo temos a impresssao do nome do usuario
+            String nome = scanner.nextLine();          // sendo com String o usuario podera letras e carater especias na introducao de dados e o scanner.nextLine vai fazer o 
+                                                       // impresso e vai para a proxima linha.            
 
             System.out.print("Documento de Identificação (RG): ");
             String rg = scanner.nextLine();
