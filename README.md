@@ -80,6 +80,7 @@ Continuem
 
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 Atividade colaborativa cada um deve comentar pelo menos 2 (duas) linhas do código
+```java
 import java.util.Scanner;
 
 public class AgenciaAerea {
@@ -159,6 +160,6 @@ public class AgenciaAerea {
         return usuario.equals("passanger9") && senha.equals("pass9");
     }
 }
-
+```
 
 
