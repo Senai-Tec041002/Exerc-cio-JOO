@@ -25,7 +25,7 @@ continuem
 coloque o trecho do código que vc fez e seu nome para identificar
 ------------- MArcus ------------------------
 
-
+```java
 public class Passageiro {
     private String nomePassageiro;
     private String rg;
@@ -34,8 +34,7 @@ public class Passageiro {
     private String telefoneContato;
     private String telefoneEmergencia;
     private String destino;
-    
-
+```
 
 
 ------------------------------- TIAGO ALVES ----------------
